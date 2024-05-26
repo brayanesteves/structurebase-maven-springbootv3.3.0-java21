@@ -1,0 +1,110 @@
+2024-05-26 13:07:08,804 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 8.0.1.Final
+2024-05-26 13:07:08,898 INFO [restartedMain] c.h.s._.Application [StartupInfoLogger.java:50] Starting Application using Java 21.0.2 with PID 881115 (/home/brayan/Documentos/DOCUMENTOS/PROYECTOS (B.O.E.P)/00 - PROYECTOS PROPIOS/HALCON BIT/JAVA/SPRING BOOT/structurebase-maven-springbootv3.3.0-java21/target/classes started by brayan in /home/brayan/Documentos/DOCUMENTOS/PROYECTOS (B.O.E.P)/00 - PROYECTOS PROPIOS/HALCON BIT/JAVA/SPRING BOOT/structurebase-maven-springbootv3.3.0-java21)
+2024-05-26 13:07:08,899 INFO [restartedMain] c.h.s._.Application [SpringApplication.java:660] The following 1 profile is active: "dev"
+2024-05-26 13:07:08,994 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-26 13:07:08,995 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:252] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-26 13:07:09,696 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-26 13:07:09,741 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2024-05-26 13:07:10,409 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:111] Tomcat initialized with port 8089 (http)
+2024-05-26 13:07:10,417 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8089"]
+2024-05-26 13:07:10,418 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2024-05-26 13:07:10,418 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-05-26 13:07:10,508 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2024-05-26 13:07:10,509 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1514 ms
+2024-05-26 13:07:10,560 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:109] HikariPool-1 - Starting...
+2024-05-26 13:07:10,656 INFO [restartedMain] c.z.h.p.HikariPool [HikariPool.java:554] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ssm user=SA
+2024-05-26 13:07:10,657 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:122] HikariPool-1 - Start completed.
+2024-05-26 13:07:10,663 INFO [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration [H2ConsoleAutoConfiguration.java:88] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ssm'
+2024-05-26 13:07:10,756 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-26 13:07:10,795 INFO [restartedMain] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-05-26 13:07:10,823 INFO [restartedMain] o.h.c.i.RegionFactoryInitiator [RegionFactoryInitiator.java:50] HHH000026: Second-level cache disabled
+2024-05-26 13:07:11,083 INFO [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-26 13:07:11,211 WARN [restartedMain] o.h.o.deprecation [DialectFactoryImpl.java:153] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-26 13:07:11,902 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:59] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-26 13:07:11,922 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-26 13:07:13,036 WARN [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:236] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-26 13:07:13,053 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:59] Adding welcome page template: index
+2024-05-26 13:07:13,545 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2024-05-26 13:07:13,573 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8089"]
+2024-05-26 13:07:13,593 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:243] Tomcat started on port 8089 (http) with context path '/'
+2024-05-26 13:07:13,596 INFO [restartedMain] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:13,598 INFO [restartedMain] o.s.a.r.l.SimpleMessageListenerContainer [AbstractMessageListenerContainer.java:1877] Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: localhost/127.0.0.1:5672
+2024-05-26 13:07:13,602 INFO [messageListenerContainer-1] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:13,603 ERROR [messageListenerContainer-1] o.s.a.r.l.SimpleMessageListenerContainer [AbstractMessageListenerContainer.java:1932] Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: localhost/127.0.0.1:5672
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:622)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:726)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2249)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2222)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2202)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:467)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:451)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1960)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1924)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1478)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1320)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.ConnectException: Connection refused: localhost/127.0.0.1:5672
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1249)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:668)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:637)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:584)
+	... 12 common frames omitted
+2024-05-26 13:07:13,604 INFO [messageListenerContainer-1] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:13,610 INFO [restartedMain] c.h.s._.Application [StartupInfoLogger.java:56] Started Application in 4.993 seconds (process running for 6.211)
+2024-05-26 13:07:18,610 WARN [messageListenerContainer-1] o.s.a.r.l.SimpleMessageListenerContainer [SimpleMessageListenerContainer.java:1587] Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: localhost/127.0.0.1:5672
+2024-05-26 13:07:18,616 INFO [messageListenerContainer-1] o.s.a.r.l.SimpleMessageListenerContainer [SimpleMessageListenerContainer.java:1565] Restarting Consumer@d76b7ce: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-05-26 13:07:18,617 INFO [messageListenerContainer-2] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:18,617 ERROR [messageListenerContainer-2] o.s.a.r.l.SimpleMessageListenerContainer [AbstractMessageListenerContainer.java:1935] Failed to check/redeclare auto-delete queue(s).
+2024-05-26 13:07:18,618 INFO [messageListenerContainer-2] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:23,623 WARN [messageListenerContainer-2] o.s.a.r.l.SimpleMessageListenerContainer [SimpleMessageListenerContainer.java:1587] Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: localhost/127.0.0.1:5672
+2024-05-26 13:07:23,624 INFO [messageListenerContainer-2] o.s.a.r.l.SimpleMessageListenerContainer [SimpleMessageListenerContainer.java:1565] Restarting Consumer@452c4818: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-05-26 13:07:23,627 INFO [messageListenerContainer-3] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:23,629 ERROR [messageListenerContainer-3] o.s.a.r.l.SimpleMessageListenerContainer [AbstractMessageListenerContainer.java:1935] Failed to check/redeclare auto-delete queue(s).
+2024-05-26 13:07:23,629 INFO [messageListenerContainer-3] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:28,635 WARN [messageListenerContainer-3] o.s.a.r.l.SimpleMessageListenerContainer [SimpleMessageListenerContainer.java:1587] Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: localhost/127.0.0.1:5672
+2024-05-26 13:07:28,635 INFO [messageListenerContainer-3] o.s.a.r.l.SimpleMessageListenerContainer [SimpleMessageListenerContainer.java:1565] Restarting Consumer@79e1e112: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-05-26 13:07:28,636 INFO [messageListenerContainer-4] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:28,637 ERROR [messageListenerContainer-4] o.s.a.r.l.SimpleMessageListenerContainer [AbstractMessageListenerContainer.java:1935] Failed to check/redeclare auto-delete queue(s).
+2024-05-26 13:07:28,637 INFO [messageListenerContainer-4] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:33,643 WARN [messageListenerContainer-4] o.s.a.r.l.SimpleMessageListenerContainer [SimpleMessageListenerContainer.java:1587] Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: localhost/127.0.0.1:5672
+2024-05-26 13:07:33,643 INFO [messageListenerContainer-4] o.s.a.r.l.SimpleMessageListenerContainer [SimpleMessageListenerContainer.java:1565] Restarting Consumer@1b518f7a: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-05-26 13:07:33,644 INFO [messageListenerContainer-5] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:33,645 ERROR [messageListenerContainer-5] o.s.a.r.l.SimpleMessageListenerContainer [AbstractMessageListenerContainer.java:1935] Failed to check/redeclare auto-delete queue(s).
+2024-05-26 13:07:33,645 INFO [messageListenerContainer-5] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:38,652 WARN [messageListenerContainer-5] o.s.a.r.l.SimpleMessageListenerContainer [SimpleMessageListenerContainer.java:1587] Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: localhost/127.0.0.1:5672
+2024-05-26 13:07:38,653 INFO [messageListenerContainer-5] o.s.a.r.l.SimpleMessageListenerContainer [SimpleMessageListenerContainer.java:1565] Restarting Consumer@1479edee: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-05-26 13:07:38,656 INFO [messageListenerContainer-6] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:38,658 ERROR [messageListenerContainer-6] o.s.a.r.l.SimpleMessageListenerContainer [AbstractMessageListenerContainer.java:1935] Failed to check/redeclare auto-delete queue(s).
+2024-05-26 13:07:38,659 INFO [messageListenerContainer-6] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:43,665 WARN [messageListenerContainer-6] o.s.a.r.l.SimpleMessageListenerContainer [SimpleMessageListenerContainer.java:1587] Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: localhost/127.0.0.1:5672
+2024-05-26 13:07:43,665 INFO [messageListenerContainer-6] o.s.a.r.l.SimpleMessageListenerContainer [SimpleMessageListenerContainer.java:1565] Restarting Consumer@3fdf621b: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-05-26 13:07:43,667 INFO [messageListenerContainer-7] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:43,667 ERROR [messageListenerContainer-7] o.s.a.r.l.SimpleMessageListenerContainer [AbstractMessageListenerContainer.java:1935] Failed to check/redeclare auto-delete queue(s).
+2024-05-26 13:07:43,668 INFO [messageListenerContainer-7] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:48,672 WARN [messageListenerContainer-7] o.s.a.r.l.SimpleMessageListenerContainer [SimpleMessageListenerContainer.java:1587] Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: localhost/127.0.0.1:5672
+2024-05-26 13:07:48,672 INFO [messageListenerContainer-7] o.s.a.r.l.SimpleMessageListenerContainer [SimpleMessageListenerContainer.java:1565] Restarting Consumer@2a12d69: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-05-26 13:07:48,673 INFO [messageListenerContainer-8] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:48,673 ERROR [messageListenerContainer-8] o.s.a.r.l.SimpleMessageListenerContainer [AbstractMessageListenerContainer.java:1935] Failed to check/redeclare auto-delete queue(s).
+2024-05-26 13:07:48,673 INFO [messageListenerContainer-8] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:53,676 WARN [messageListenerContainer-8] o.s.a.r.l.SimpleMessageListenerContainer [SimpleMessageListenerContainer.java:1587] Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: localhost/127.0.0.1:5672
+2024-05-26 13:07:53,677 INFO [messageListenerContainer-8] o.s.a.r.l.SimpleMessageListenerContainer [SimpleMessageListenerContainer.java:1565] Restarting Consumer@21233b14: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-05-26 13:07:53,681 INFO [messageListenerContainer-9] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:53,682 ERROR [messageListenerContainer-9] o.s.a.r.l.SimpleMessageListenerContainer [AbstractMessageListenerContainer.java:1935] Failed to check/redeclare auto-delete queue(s).
+2024-05-26 13:07:53,683 INFO [messageListenerContainer-9] o.s.a.r.c.CachingConnectionFactory [AbstractConnectionFactory.java:666] Attempting to connect to: [localhost:5672]
+2024-05-26 13:07:53,959 INFO [messageListenerContainer-10] o.s.a.r.l.SimpleMessageListenerContainer [SimpleMessageListenerContainer.java:686] Waiting for workers to finish.
+2024-05-26 13:07:53,959 INFO [messageListenerContainer-10] o.s.a.r.l.SimpleMessageListenerContainer [SimpleMessageListenerContainer.java:690] Successfully waited for workers to finish.
+2024-05-26 13:07:53,964 INFO [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-26 13:07:53,970 WARN [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter [DisposableBeanAdapter.java:221] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-05-26 13:07:53,970 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:349] HikariPool-1 - Shutdown initiated...
+2024-05-26 13:07:53,971 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:351] HikariPool-1 - Shutdown completed.
